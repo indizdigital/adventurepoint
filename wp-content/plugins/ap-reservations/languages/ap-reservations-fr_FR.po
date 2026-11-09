@@ -1,0 +1,617 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "AP Reservations"
+msgstr "AP Reservations"
+
+msgid "Canoe rental reservations: canoe types rentable per hour or day, stock-based availability, bookable extras, pluggable payment gateways."
+msgstr "Réservations pour la location de canoës : types de canoës à l’heure ou à la journée, disponibilité selon le stock, options réservables, moyens de paiement extensibles."
+
+msgid "AdventurePoint"
+msgstr "AdventurePoint"
+
+msgid "Reference"
+msgstr "Référence"
+
+msgid "When"
+msgstr "Quand"
+
+msgid "Customer"
+msgstr "Client"
+
+msgid "Items"
+msgstr "Articles"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "Created"
+msgstr "Créée"
+
+msgid "All"
+msgstr "Toutes"
+
+msgid "Upcoming"
+msgstr "À venir"
+
+msgid "No reservations found."
+msgstr "Aucune réservation trouvée."
+
+msgid "Reservations"
+msgstr "Réservations"
+
+msgid "All reservations"
+msgstr "Toutes les réservations"
+
+msgid "Occupancy"
+msgstr "Occupation"
+
+msgid "Reservation settings"
+msgstr "Réglages des réservations"
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "Search"
+msgstr "Rechercher"
+
+msgid "Reservation updated."
+msgstr "Réservation mise à jour."
+
+msgid "Reservation not found."
+msgstr "Réservation introuvable."
+
+msgid "Reservation %s"
+msgstr "Réservation %s"
+
+msgid "Back to all reservations"
+msgstr "Retour à toutes les réservations"
+
+msgid "Rental"
+msgstr "Location"
+
+msgid "Item"
+msgstr "Article"
+
+msgid "Qty"
+msgstr "Qté"
+
+msgid "Unit price"
+msgstr "Prix unitaire"
+
+msgid "Persons (max.)"
+msgstr "Personnes (max.)"
+
+msgid "Payment"
+msgstr "Paiement"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "Customer notes"
+msgstr "Remarques du client"
+
+msgid "Created %s"
+msgstr "Créée le %s"
+
+msgid "Manage"
+msgstr "Gérer"
+
+msgid "The customer is notified by email when a reservation is confirmed or cancelled."
+msgstr "Le client est informé par e-mail lorsqu’une réservation est confirmée ou annulée."
+
+msgid "Internal notes"
+msgstr "Notes internes"
+
+msgid "Resend the current status email to the customer"
+msgstr "Renvoyer l’e-mail de statut actuel au client"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Confirm"
+msgstr "Confirmer"
+
+msgid "Cancel this reservation?"
+msgstr "Annuler cette réservation ?"
+
+msgid "Cancel reservation"
+msgstr "Annuler la réservation"
+
+msgid "You are not allowed to do this."
+msgstr "Vous n’êtes pas autorisé à faire cela."
+
+msgid "Today"
+msgstr "Aujourd’hui"
+
+msgid "Canoe"
+msgstr "Canoë"
+
+msgid "Reservations on this day"
+msgstr "Réservations ce jour-là"
+
+msgid "No reservations."
+msgstr "Aucune réservation."
+
+msgid "Opening hours & season"
+msgstr "Horaires & saison"
+
+msgid "Opening time"
+msgstr "Heure d’ouverture"
+
+msgid "Closing time"
+msgstr "Heure de fermeture"
+
+msgid "Season start (MM-DD)"
+msgstr "Début de saison (MM-JJ)"
+
+msgid "Season end (MM-DD)"
+msgstr "Fin de saison (MM-JJ)"
+
+msgid "Start time interval"
+msgstr "Intervalle des heures de départ"
+
+msgid "Buffer between rentals (minutes)"
+msgstr "Battement entre deux locations (minutes)"
+
+msgid "Time to clean and check a canoe before the next rental."
+msgstr "Temps pour nettoyer et contrôler un canoë avant la location suivante."
+
+msgid "Minimum notice (hours)"
+msgstr "Délai minimum (heures)"
+
+msgid "Bookable up to (days ahead)"
+msgstr "Réservable jusqu’à (jours à l’avance)"
+
+msgid "Max. rental length (days)"
+msgstr "Durée de location max. (jours)"
+
+msgid "Payment & notifications"
+msgstr "Paiement & notifications"
+
+msgid "Currency (ISO code)"
+msgstr "Devise (code ISO)"
+
+msgid "Payment method"
+msgstr "Moyen de paiement"
+
+msgid "Online payment providers (e.g. Payrexx) appear here once their integration is installed."
+msgstr "Les prestataires de paiement en ligne (p. ex. Payrexx) apparaissent ici une fois leur intégration installée."
+
+msgid "Hold canoes while awaiting online payment (minutes)"
+msgstr "Bloquer les canoës en attendant le paiement en ligne (minutes)"
+
+msgid "Auto-confirm"
+msgstr "Confirmation automatique"
+
+msgid "Confirm reservations immediately (otherwise staff confirm them manually)"
+msgstr "Confirmer immédiatement les réservations (sinon l’équipe les confirme manuellement)"
+
+msgid "Notification email"
+msgstr "E-mail de notification"
+
+msgid "Terms page"
+msgstr "Page des CGV"
+
+msgid "Place the reservation form on any page with the shortcode [ap_reservation]. Canoe overview: [ap_canoes]."
+msgstr "Insérez le formulaire de réservation sur n’importe quelle page avec le shortcode [ap_reservation]. Aperçu des canoës : [ap_canoes]."
+
+msgid "Rental settings"
+msgstr "Paramètres de location"
+
+msgid "Persons per canoe"
+msgstr "Personnes par canoë"
+
+msgid "Number of canoes available (stock)"
+msgstr "Nombre de canoës disponibles (stock)"
+
+msgid "Rentable per hour"
+msgstr "Location à l’heure"
+
+msgid "Price per hour (%s)"
+msgstr "Prix par heure (%s)"
+
+msgid "Minimum hours"
+msgstr "Heures minimum"
+
+msgid "Rentable per day"
+msgstr "Location à la journée"
+
+msgid "Price per day (%s)"
+msgstr "Prix par jour (%s)"
+
+msgid "One-time price per booking (%s)"
+msgstr "Prix unique par réservation (%s)"
+
+msgid "Stock (0 = unlimited)"
+msgstr "Stock (0 = illimité)"
+
+msgid "Max. quantity per booking"
+msgstr "Quantité max. par réservation"
+
+msgid "Suggest one per person (e.g. life vests)"
+msgstr "Proposer un par personne (p. ex. gilets de sauvetage)"
+
+msgid "Prices are added up: one-time price + (hours × hourly price) or (days × daily price). Leave at 0 for free extras."
+msgstr "Les prix s’additionnent : prix unique + (heures × prix horaire) ou (jours × prix journalier). Laisser 0 pour les options gratuites."
+
+msgid "Prices and stock are shared between all translations and are synchronized automatically."
+msgstr "Les prix et le stock sont communs à toutes les traductions et synchronisés automatiquement."
+
+msgid "Stock"
+msgstr "Stock"
+
+msgid "Prices"
+msgstr "Prix"
+
+msgid "one-time"
+msgstr "unique"
+
+msgid "hour"
+msgstr "heure"
+
+msgid "day"
+msgstr "jour"
+
+msgid "free"
+msgstr "gratuit"
+
+msgid "Pending"
+msgstr "En attente"
+
+msgid "Awaiting payment"
+msgstr "Paiement en attente"
+
+msgid "Confirmed"
+msgstr "Confirmée"
+
+msgid "Completed"
+msgstr "Terminée"
+
+msgid "Cancelled"
+msgstr "Annulée"
+
+msgid "The booking system is busy. Please try again in a moment."
+msgstr "Le système de réservation est occupé. Veuillez réessayer dans un instant."
+
+msgid "Your reservation could not be saved. Please try again."
+msgstr "Votre réservation n’a pas pu être enregistrée. Veuillez réessayer."
+
+msgid "Please enter your name."
+msgstr "Veuillez indiquer votre nom."
+
+msgid "Please enter a valid email address."
+msgstr "Veuillez indiquer une adresse e-mail valide."
+
+msgid "Please enter a valid phone number."
+msgstr "Veuillez indiquer un numéro de téléphone valide."
+
+msgid "Please accept the terms and conditions."
+msgstr "Veuillez accepter les conditions générales."
+
+msgid "[%1$s] Your reservation %2$s is confirmed"
+msgstr "[%1$s] Votre réservation %2$s est confirmée"
+
+msgid "Great news – your reservation is confirmed. We look forward to seeing you!"
+msgstr "Bonne nouvelle – votre réservation est confirmée. Nous nous réjouissons de vous accueillir !"
+
+msgid "[%1$s] Your reservation %2$s was cancelled"
+msgstr "[%1$s] Votre réservation %2$s a été annulée"
+
+msgid "Your reservation has been cancelled. If you have any questions, just reply to this email."
+msgstr "Votre réservation a été annulée. Pour toute question, répondez simplement à cet e-mail."
+
+msgid "[%1$s] We received your reservation %2$s"
+msgstr "[%1$s] Nous avons bien reçu votre réservation %2$s"
+
+msgid "Thank you for your reservation request. We will check it and confirm it shortly by email."
+msgstr "Merci pour votre demande de réservation. Nous la vérifions et vous la confirmons rapidement par e-mail."
+
+msgid "Hello %s"
+msgstr "Bonjour %s"
+
+msgid "Please arrive 15 minutes before your rental starts. Life vests are mandatory on the water."
+msgstr "Merci d’arriver 15 minutes avant le début de la location. Le gilet de sauvetage est obligatoire sur l’eau."
+
+msgid "New reservation %1$s from %2$s"
+msgstr "Nouvelle réservation %1$s de %2$s"
+
+msgid "Notes"
+msgstr "Remarques"
+
+msgid "Reservation"
+msgstr "Réservation"
+
+msgid "%s / hour"
+msgstr "%s / heure"
+
+msgid "%s / day"
+msgstr "%s / jour"
+
+msgid "%s once"
+msgstr "%s unique"
+
+msgid "included"
+msgstr "inclus"
+
+msgid "%d available"
+msgstr "%d disponible(s)"
+
+msgid "Not available"
+msgstr "Indisponible"
+
+msgid "available"
+msgstr "disponible"
+
+msgid "min. %d h"
+msgstr "min. %d h"
+
+msgid "only per day"
+msgstr "uniquement à la journée"
+
+msgid "only per hour"
+msgstr "uniquement à l’heure"
+
+msgid "Choose a date and a canoe to see your price."
+msgstr "Choisissez une date et un canoë pour voir votre prix."
+
+msgid "Please choose at least one canoe."
+msgstr "Veuillez choisir au moins un canoë."
+
+msgid "Checking availability…"
+msgstr "Vérification de la disponibilité…"
+
+msgid "Connection problem – please try again."
+msgstr "Problème de connexion – veuillez réessayer."
+
+msgid "Sending reservation…"
+msgstr "Envoi de la réservation…"
+
+msgid "Add one per person (%d)"
+msgstr "Un par personne (%d)"
+
+msgid "Please fill in all required fields."
+msgstr "Veuillez remplir tous les champs obligatoires."
+
+msgid "Pay on site"
+msgstr "Paiement sur place"
+
+msgid "You pay on site when picking up your canoe (cash, card or TWINT)."
+msgstr "Vous payez sur place au retrait du canoë (espèces, carte ou TWINT)."
+
+msgid "Please choose whether you want to rent by the hour or by the day."
+msgstr "Veuillez choisir une location à l’heure ou à la journée."
+
+msgid "Please choose a valid date."
+msgstr "Veuillez choisir une date valide."
+
+msgid "Please choose a start time."
+msgstr "Veuillez choisir une heure de départ."
+
+msgid "The chosen start time is not available."
+msgstr "L’heure de départ choisie n’est pas disponible."
+
+msgid "The rental must end by closing time (%s)."
+msgstr "La location doit se terminer avant la fermeture (%s)."
+
+msgid "The return date must not be before the pick-up date."
+msgstr "La date de retour ne peut pas précéder la date de retrait."
+
+msgid "Online reservations are limited to %d days. Please contact us for longer rentals."
+msgstr "Les réservations en ligne sont limitées à %d jours. Contactez-nous pour des locations plus longues."
+
+msgid "Reservations must be made at least %d hour in advance."
+msgid_plural "Reservations must be made at least %d hours in advance."
+msgstr[0] "Les réservations doivent être faites au moins %d heure à l’avance."
+msgstr[1] "Les réservations doivent être faites au moins %d heures à l’avance."
+
+msgid "This date is too far in the future for online reservations."
+msgstr "Cette date est trop éloignée pour une réservation en ligne."
+
+msgid "We are closed on the chosen date (outside the season)."
+msgstr "Nous sommes fermés à la date choisie (hors saison)."
+
+msgid "%1$s, %2$s – %3$s (%4$d hour)"
+msgid_plural "%1$s, %2$s – %3$s (%4$d hours)"
+msgstr[0] "%1$s, %2$s – %3$s (%4$d heure)"
+msgstr[1] "%1$s, %2$s – %3$s (%4$d heures)"
+
+msgid "%1$s – %2$s (%3$d day)"
+msgid_plural "%1$s – %2$s (%3$d days)"
+msgstr[0] "%1$s – %2$s (%3$d jour)"
+msgstr[1] "%1$s – %2$s (%3$d jours)"
+
+msgid "Canoes"
+msgstr "Canoës"
+
+msgid "Add new canoe"
+msgstr "Ajouter un canoë"
+
+msgid "Edit canoe"
+msgstr "Modifier le canoë"
+
+msgid "Extras"
+msgstr "Options"
+
+msgid "Extra"
+msgstr "Option"
+
+msgid "Add new extra"
+msgstr "Ajouter une option"
+
+msgid "Edit extra"
+msgstr "Modifier l’option"
+
+msgid "One of the selected canoes is no longer available."
+msgstr "L’un des canoës choisis n’est plus disponible."
+
+msgid "%s can only be rented by the day."
+msgstr "%s ne se loue qu’à la journée."
+
+msgid "%s can only be rented by the hour."
+msgstr "%s ne se loue qu’à l’heure."
+
+msgid "%1$s must be rented for at least %2$d hours."
+msgstr "%1$s doit être loué pour au moins %2$d heures."
+
+msgid "Only %2$d × %1$s available for the chosen period."
+msgstr "Seulement %2$d × %1$s disponible(s) pour la période choisie."
+
+msgid "One of the selected extras is no longer available."
+msgstr "L’une des options choisies n’est plus disponible."
+
+msgid "You can add at most %1$d × %2$s."
+msgstr "Vous pouvez ajouter au maximum %1$d × %2$s."
+
+msgid "Your session has expired. Please reload the page and try again."
+msgstr "Votre session a expiré. Veuillez recharger la page et réessayer."
+
+msgid "Too many reservations from your connection. Please try again later or contact us."
+msgstr "Trop de réservations depuis votre connexion. Veuillez réessayer plus tard ou nous contacter."
+
+msgid "Please enable JavaScript to make a reservation."
+msgstr "Veuillez activer JavaScript pour réserver."
+
+msgid "Reservation steps"
+msgstr "Étapes de réservation"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Your details"
+msgstr "Vos coordonnées"
+
+msgid "When do you want to go on the water?"
+msgstr "Quand souhaitez-vous aller sur l’eau ?"
+
+msgid "Rental type"
+msgstr "Type de location"
+
+msgid "By the hour"
+msgstr "À l’heure"
+
+msgid "Short trips, a few hours on the river"
+msgstr "Courtes sorties, quelques heures sur la rivière"
+
+msgid "By the day"
+msgstr "À la journée"
+
+msgid "Day tours and multi-day trips"
+msgstr "Excursions d’un ou plusieurs jours"
+
+msgid "Pick-up date"
+msgstr "Date de retrait"
+
+msgid "Start time"
+msgstr "Heure de départ"
+
+msgid "Duration"
+msgstr "Durée"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d heure"
+msgstr[1] "%d heures"
+
+msgid "Return date"
+msgstr "Date de retour"
+
+msgid "Opening hours: %1$s – %2$s. Day rentals run from opening to closing time."
+msgstr "Horaires : %1$s – %2$s. Les locations à la journée vont de l’ouverture à la fermeture."
+
+msgid "Choose your canoes"
+msgstr "Choisissez vos canoës"
+
+msgid "Up to %d person"
+msgid_plural "Up to %d persons"
+msgstr[0] "Jusqu’à %d personne"
+msgstr[1] "Jusqu’à %d personnes"
+
+msgid "Less"
+msgstr "Moins"
+
+msgid "Quantity %s"
+msgstr "Quantité %s"
+
+msgid "More"
+msgstr "Plus"
+
+msgid "Add equipment"
+msgstr "Ajouter de l’équipement"
+
+msgid "Paddles are always included. Add life vests, dry bags and more."
+msgstr "Les pagaies sont toujours incluses. Ajoutez gilets de sauvetage, sacs étanches et plus encore."
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Phone"
+msgstr "Téléphone"
+
+msgid "Notes (optional)"
+msgstr "Remarques (facultatif)"
+
+msgid "I accept the %s."
+msgstr "J’accepte les %s."
+
+msgid "terms and conditions"
+msgstr "conditions générales"
+
+msgid "I accept the terms and conditions."
+msgstr "J’accepte les conditions générales."
+
+msgid "Back"
+msgstr "Retour"
+
+msgid "Continue"
+msgstr "Continuer"
+
+msgid "Reserve now"
+msgstr "Réserver maintenant"
+
+msgid "Your reservation"
+msgstr "Votre réservation"
+
+msgid "Thank you for your reservation!"
+msgstr "Merci pour votre réservation !"
+
+msgid "Payment not completed"
+msgstr "Paiement non finalisé"
+
+msgid "Thank you!"
+msgstr "Merci !"
+
+msgid "Reservation %1$s – status: %2$s"
+msgstr "Réservation %1$s – statut : %2$s"
+
+msgid "Your payment was not completed. Please try again or contact us."
+msgstr "Votre paiement n’a pas été finalisé. Veuillez réessayer ou nous contacter."
+
+msgid "Persons"
+msgstr "Personnes"
+
+msgid "Minimum rental"
+msgstr "Location minimale"
+
+msgid "%d hours"
+msgstr "%d heures"
+
+msgid "Reserve this canoe"
+msgstr "Réserver ce canoë"
+
+msgid "No canoes available yet."
+msgstr "Aucun canoë disponible pour le moment."
+
+msgid "Reserve"
+msgstr "Réserver"

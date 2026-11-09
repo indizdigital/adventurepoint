@@ -1,0 +1,92 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": { "contentSize": "760px", "wideSize": "1200px" },
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{ "slug": "base", "name": "Base", "color": "#ffffff" },
+				{ "slug": "surface", "name": "Surface", "color": "#f2f7f5" },
+				{ "slug": "sand", "name": "Sand", "color": "#f6efe4" },
+				{ "slug": "primary", "name": "River", "color": "#12617a" },
+				{ "slug": "primary-dark", "name": "Deep water", "color": "#0b4255" },
+				{ "slug": "forest", "name": "Forest", "color": "#2f5d46" },
+				{ "slug": "accent", "name": "Canoe orange", "color": "#e07a3f" },
+				{ "slug": "contrast", "name": "Text", "color": "#18262c" },
+				{ "slug": "muted", "name": "Muted", "color": "#5b6b70" },
+				{ "slug": "border", "name": "Border", "color": "#d6e2e0" }
+			],
+			"gradients": [
+				{ "slug": "river", "name": "River", "gradient": "linear-gradient(160deg,#0b4255 0%,#12617a 55%,#2f8aa3 100%)" }
+			]
+		},
+		"spacing": {
+			"units": [ "px", "rem", "%", "vw" ],
+			"spacingSizes": [
+				{ "slug": "20", "name": "XS", "size": "0.5rem" },
+				{ "slug": "30", "name": "S", "size": "1rem" },
+				{ "slug": "40", "name": "M", "size": "clamp(1.25rem, 3vw, 2rem)" },
+				{ "slug": "50", "name": "L", "size": "clamp(2rem, 5vw, 3.5rem)" },
+				{ "slug": "60", "name": "XL", "size": "clamp(3rem, 8vw, 6rem)" }
+			]
+		},
+		"typography": {
+			"fluid": true,
+			"defaultFontSizes": false,
+			"fontFamilies": [
+				{ "slug": "body", "name": "Body", "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif" },
+				{ "slug": "display", "name": "Display", "fontFamily": "\"Avenir Next\", \"Segoe UI\", \"Trebuchet MS\", system-ui, sans-serif" }
+			],
+			"fontSizes": [
+				{ "slug": "small", "name": "Small", "size": "0.9rem", "fluid": false },
+				{ "slug": "medium", "name": "Medium", "size": "1.05rem", "fluid": false },
+				{ "slug": "large", "name": "Large", "size": "1.35rem", "fluid": { "min": "1.2rem", "max": "1.5rem" } },
+				{ "slug": "x-large", "name": "XL", "size": "2.2rem", "fluid": { "min": "1.7rem", "max": "2.6rem" } },
+				{ "slug": "huge", "name": "Huge", "size": "3.6rem", "fluid": { "min": "2.3rem", "max": "4.2rem" } }
+			]
+		}
+	},
+	"styles": {
+		"color": { "background": "var(--wp--preset--color--base)", "text": "var(--wp--preset--color--contrast)" },
+		"spacing": {
+			"blockGap": "1.25rem",
+			"padding": { "left": "var(--wp--preset--spacing--40)", "right": "var(--wp--preset--spacing--40)" }
+		},
+		"typography": { "fontFamily": "var(--wp--preset--font-family--body)", "fontSize": "var(--wp--preset--font-size--medium)", "lineHeight": "1.65" },
+		"elements": {
+			"link": {
+				"color": { "text": "var(--wp--preset--color--primary)" },
+				":hover": { "color": { "text": "var(--wp--preset--color--primary-dark)" } }
+			},
+			"heading": {
+				"typography": { "fontFamily": "var(--wp--preset--font-family--display)", "fontWeight": "800", "lineHeight": "1.15", "letterSpacing": "-0.01em" },
+				"color": { "text": "var(--wp--preset--color--primary-dark)" }
+			},
+			"h1": { "typography": { "fontSize": "var(--wp--preset--font-size--huge)" } },
+			"h2": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" } },
+			"h3": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+			"button": {
+				"color": { "background": "var(--wp--preset--color--accent)", "text": "#ffffff" },
+				"border": { "radius": "999px" },
+				"typography": { "fontWeight": "700" },
+				"spacing": { "padding": { "top": "0.8rem", "bottom": "0.8rem", "left": "1.6rem", "right": "1.6rem" } },
+				":hover": { "color": { "background": "#c8652c", "text": "#ffffff" } }
+			}
+		},
+		"blocks": {
+			"core/navigation": { "typography": { "fontWeight": "600" } },
+			"core/site-title": { "typography": { "fontFamily": "var(--wp--preset--font-family--display)", "fontWeight": "800", "fontSize": "1.35rem" } }
+		}
+	},
+	"templateParts": [
+		{ "name": "header", "title": "Header", "area": "header" },
+		{ "name": "footer", "title": "Footer", "area": "footer" }
+	],
+	"customTemplates": [
+		{ "name": "page-wide", "title": "Page – full width", "postTypes": [ "page" ] }
+	]
+}

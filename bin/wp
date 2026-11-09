@@ -1,0 +1,4 @@
+#!/bin/sh
+# Run WP-CLI inside the docker setup: ./bin/wp plugin list
+cd "$(dirname "$0")/.." || exit 1
+exec docker compose run --rm -T wpcli wp "$@"

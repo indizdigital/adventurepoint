@@ -1,0 +1,936 @@
+# Copyright (C) 2026 AdventurePoint
+# This file is distributed under the same license as the AP Reservations plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: AP Reservations 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ap-reservations\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-07T20:32:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ap-reservations\n"
+
+#. Plugin Name of the plugin
+#: ap-reservations.php
+msgid "AP Reservations"
+msgstr ""
+
+#. Description of the plugin
+#: ap-reservations.php
+msgid "Canoe rental reservations: canoe types rentable per hour or day, stock-based availability, bookable extras, pluggable payment gateways."
+msgstr ""
+
+#. Author of the plugin
+#: ap-reservations.php
+msgid "AdventurePoint"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:23
+msgid "Reference"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:24
+#: includes/Emails.php:78
+msgid "When"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:25
+#: includes/Admin/Menu.php:121
+#: includes/Emails.php:65
+msgid "Customer"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:26
+msgid "Items"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:27
+#: includes/Admin/Menu.php:99
+#: includes/Admin/Menu.php:110
+#: includes/Emails.php:85
+#: templates/booking-form.php:189
+msgid "Total"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:28
+#: includes/Admin/Menu.php:139
+#: includes/Emails.php:77
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:29
+msgid "Created"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:56
+msgid "All"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:57
+msgid "Upcoming"
+msgstr ""
+
+#: includes/Admin/BookingsTable.php:88
+msgid "No reservations found."
+msgstr ""
+
+#: includes/Admin/Menu.php:35
+#: includes/Admin/Menu.php:36
+#: includes/Admin/Menu.php:62
+msgid "Reservations"
+msgstr ""
+
+#: includes/Admin/Menu.php:36
+msgid "All reservations"
+msgstr ""
+
+#: includes/Admin/Menu.php:37
+#: includes/Admin/Menu.php:206
+msgid "Occupancy"
+msgstr ""
+
+#: includes/Admin/Menu.php:38
+#: includes/Admin/Menu.php:300
+msgid "Reservation settings"
+msgstr ""
+
+#: includes/Admin/Menu.php:38
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/Menu.php:66
+msgid "Search"
+msgstr ""
+
+#: includes/Admin/Menu.php:73
+msgid "Reservation updated."
+msgstr ""
+
+#: includes/Admin/Menu.php:80
+#: includes/Admin/Menu.php:172
+msgid "Reservation not found."
+msgstr ""
+
+#. translators: %s: booking reference
+#: includes/Admin/Menu.php:88
+#, php-format
+msgid "Reservation %s"
+msgstr ""
+
+#: includes/Admin/Menu.php:91
+msgid "Back to all reservations"
+msgstr ""
+
+#: includes/Admin/Menu.php:96
+msgid "Rental"
+msgstr ""
+
+#: includes/Admin/Menu.php:99
+msgid "Item"
+msgstr ""
+
+#: includes/Admin/Menu.php:99
+msgid "Qty"
+msgstr ""
+
+#: includes/Admin/Menu.php:99
+msgid "Unit price"
+msgstr ""
+
+#: includes/Admin/Menu.php:113
+msgid "Persons (max.)"
+msgstr ""
+
+#: includes/Admin/Menu.php:114
+#: includes/Emails.php:88
+#: templates/booking-form.php:190
+msgid "Payment"
+msgstr ""
+
+#: includes/Admin/Menu.php:125
+#: includes/Emails.php:66
+msgid "Language"
+msgstr ""
+
+#: includes/Admin/Menu.php:127
+msgid "Customer notes"
+msgstr ""
+
+#. translators: %s: date
+#: includes/Admin/Menu.php:130
+#, php-format
+msgid "Created %s"
+msgstr ""
+
+#: includes/Admin/Menu.php:134
+msgid "Manage"
+msgstr ""
+
+#: includes/Admin/Menu.php:145
+msgid "The customer is notified by email when a reservation is confirmed or cancelled."
+msgstr ""
+
+#: includes/Admin/Menu.php:146
+msgid "Internal notes"
+msgstr ""
+
+#: includes/Admin/Menu.php:148
+msgid "Resend the current status email to the customer"
+msgstr ""
+
+#: includes/Admin/Menu.php:150
+msgid "Save"
+msgstr ""
+
+#: includes/Admin/Menu.php:152
+msgid "Confirm"
+msgstr ""
+
+#: includes/Admin/Menu.php:155
+msgid "Cancel this reservation?"
+msgstr ""
+
+#: includes/Admin/Menu.php:155
+msgid "Cancel reservation"
+msgstr ""
+
+#: includes/Admin/Menu.php:168
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/Admin/Menu.php:212
+msgid "Today"
+msgstr ""
+
+#: includes/Admin/Menu.php:217
+#: includes/PostTypes.php:41
+msgid "Canoe"
+msgstr ""
+
+#: includes/Admin/Menu.php:244
+msgid "Reservations on this day"
+msgstr ""
+
+#: includes/Admin/Menu.php:252
+msgid "No reservations."
+msgstr ""
+
+#: includes/Admin/Menu.php:303
+msgid "Opening hours & season"
+msgstr ""
+
+#: includes/Admin/Menu.php:306
+msgid "Opening time"
+msgstr ""
+
+#: includes/Admin/Menu.php:307
+msgid "Closing time"
+msgstr ""
+
+#: includes/Admin/Menu.php:308
+msgid "Season start (MM-DD)"
+msgstr ""
+
+#: includes/Admin/Menu.php:309
+msgid "Season end (MM-DD)"
+msgstr ""
+
+#: includes/Admin/Menu.php:311
+msgid "Start time interval"
+msgstr ""
+
+#: includes/Admin/Menu.php:316
+msgid "Buffer between rentals (minutes)"
+msgstr ""
+
+#: includes/Admin/Menu.php:316
+msgid "Time to clean and check a canoe before the next rental."
+msgstr ""
+
+#: includes/Admin/Menu.php:317
+msgid "Minimum notice (hours)"
+msgstr ""
+
+#: includes/Admin/Menu.php:318
+msgid "Bookable up to (days ahead)"
+msgstr ""
+
+#: includes/Admin/Menu.php:319
+msgid "Max. rental length (days)"
+msgstr ""
+
+#: includes/Admin/Menu.php:323
+msgid "Payment & notifications"
+msgstr ""
+
+#: includes/Admin/Menu.php:325
+msgid "Currency (ISO code)"
+msgstr ""
+
+#: includes/Admin/Menu.php:326
+msgid "Payment method"
+msgstr ""
+
+#: includes/Admin/Menu.php:330
+msgid "Online payment providers (e.g. Payrexx) appear here once their integration is installed."
+msgstr ""
+
+#: includes/Admin/Menu.php:331
+msgid "Hold canoes while awaiting online payment (minutes)"
+msgstr ""
+
+#: includes/Admin/Menu.php:332
+msgid "Auto-confirm"
+msgstr ""
+
+#: includes/Admin/Menu.php:334
+msgid "Confirm reservations immediately (otherwise staff confirm them manually)"
+msgstr ""
+
+#: includes/Admin/Menu.php:335
+msgid "Notification email"
+msgstr ""
+
+#: includes/Admin/Menu.php:336
+msgid "Terms page"
+msgstr ""
+
+#: includes/Admin/Menu.php:342
+msgid "Place the reservation form on any page with the shortcode [ap_reservation]. Canoe overview: [ap_canoes]."
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:22
+#: includes/Admin/MetaBoxes.php:23
+msgid "Rental settings"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:30
+msgid "Persons per canoe"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:31
+msgid "Number of canoes available (stock)"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:32
+msgid "Rentable per hour"
+msgstr ""
+
+#. translators: %s: currency
+#: includes/Admin/MetaBoxes.php:33
+#: includes/Admin/MetaBoxes.php:46
+#, php-format
+msgid "Price per hour (%s)"
+msgstr ""
+
+#. translators: %s: currency
+#: includes/Admin/MetaBoxes.php:34
+msgid "Minimum hours"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:35
+msgid "Rentable per day"
+msgstr ""
+
+#. translators: %s: currency
+#: includes/Admin/MetaBoxes.php:36
+#: includes/Admin/MetaBoxes.php:47
+#, php-format
+msgid "Price per day (%s)"
+msgstr ""
+
+#. translators: %s: currency
+#: includes/Admin/MetaBoxes.php:45
+#, php-format
+msgid "One-time price per booking (%s)"
+msgstr ""
+
+#. translators: %s: currency
+#: includes/Admin/MetaBoxes.php:48
+msgid "Stock (0 = unlimited)"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:49
+msgid "Max. quantity per booking"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:50
+msgid "Suggest one per person (e.g. life vests)"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:52
+msgid "Prices are added up: one-time price + (hours × hourly price) or (days × daily price). Leave at 0 for free extras."
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:58
+msgid "Prices and stock are shared between all translations and are synchronized automatically."
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:110
+msgid "Stock"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:111
+#: templates/canoe-details.php:13
+msgid "Prices"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:126
+msgid "one-time"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:126
+msgid "hour"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:126
+msgid "day"
+msgstr ""
+
+#: includes/Admin/MetaBoxes.php:132
+msgid "free"
+msgstr ""
+
+#: includes/BookingRepository.php:10
+msgid "Pending"
+msgstr ""
+
+#: includes/BookingRepository.php:11
+msgid "Awaiting payment"
+msgstr ""
+
+#: includes/BookingRepository.php:12
+msgid "Confirmed"
+msgstr ""
+
+#: includes/BookingRepository.php:13
+msgid "Completed"
+msgstr ""
+
+#: includes/BookingRepository.php:14
+msgid "Cancelled"
+msgstr ""
+
+#: includes/BookingService.php:30
+msgid "The booking system is busy. Please try again in a moment."
+msgstr ""
+
+#: includes/BookingService.php:62
+msgid "Your reservation could not be saved. Please try again."
+msgstr ""
+
+#: includes/BookingService.php:88
+msgid "Please enter your name."
+msgstr ""
+
+#: includes/BookingService.php:91
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/BookingService.php:94
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/BookingService.php:97
+msgid "Please accept the terms and conditions."
+msgstr ""
+
+#. translators: 1: site name, 2: booking reference
+#: includes/Emails.php:40
+#, php-format
+msgid "[%1$s] Your reservation %2$s is confirmed"
+msgstr ""
+
+#: includes/Emails.php:41
+msgid "Great news – your reservation is confirmed. We look forward to seeing you!"
+msgstr ""
+
+#. translators: 1: site name, 2: booking reference
+#: includes/Emails.php:43
+#, php-format
+msgid "[%1$s] Your reservation %2$s was cancelled"
+msgstr ""
+
+#: includes/Emails.php:44
+msgid "Your reservation has been cancelled. If you have any questions, just reply to this email."
+msgstr ""
+
+#. translators: 1: site name, 2: booking reference
+#: includes/Emails.php:46
+#, php-format
+msgid "[%1$s] We received your reservation %2$s"
+msgstr ""
+
+#: includes/Emails.php:47
+msgid "Thank you for your reservation request. We will check it and confirm it shortly by email."
+msgstr ""
+
+#. translators: %s: customer name
+#: includes/Emails.php:50
+#, php-format
+msgid "Hello %s"
+msgstr ""
+
+#: includes/Emails.php:52
+msgid "Please arrive 15 minutes before your rental starts. Life vests are mandatory on the water."
+msgstr ""
+
+#. translators: 1: booking reference, 2: customer name
+#: includes/Emails.php:63
+#, php-format
+msgid "New reservation %1$s from %2$s"
+msgstr ""
+
+#: includes/Emails.php:68
+msgid "Notes"
+msgstr ""
+
+#: includes/Emails.php:76
+msgid "Reservation"
+msgstr ""
+
+#. translators: %s: price
+#: includes/Frontend.php:36
+#: includes/Frontend.php:48
+#, php-format
+msgid "%s / hour"
+msgstr ""
+
+#. translators: %s: price
+#: includes/Frontend.php:40
+#: includes/Frontend.php:51
+#, php-format
+msgid "%s / day"
+msgstr ""
+
+#. translators: %s: price
+#: includes/Frontend.php:45
+#, php-format
+msgid "%s once"
+msgstr ""
+
+#: includes/Frontend.php:54
+msgid "included"
+msgstr ""
+
+#. translators: %d: number of free units
+#: includes/Frontend.php:100
+#, php-format
+msgid "%d available"
+msgstr ""
+
+#: includes/Frontend.php:101
+msgid "Not available"
+msgstr ""
+
+#: includes/Frontend.php:102
+msgid "available"
+msgstr ""
+
+#. translators: %d: hours
+#: includes/Frontend.php:104
+#, php-format
+msgid "min. %d h"
+msgstr ""
+
+#: includes/Frontend.php:105
+msgid "only per day"
+msgstr ""
+
+#: includes/Frontend.php:106
+msgid "only per hour"
+msgstr ""
+
+#: includes/Frontend.php:107
+#: templates/booking-form.php:188
+msgid "Choose a date and a canoe to see your price."
+msgstr ""
+
+#: includes/Frontend.php:108
+#: includes/Quote.php:100
+msgid "Please choose at least one canoe."
+msgstr ""
+
+#: includes/Frontend.php:109
+msgid "Checking availability…"
+msgstr ""
+
+#: includes/Frontend.php:110
+msgid "Connection problem – please try again."
+msgstr ""
+
+#: includes/Frontend.php:111
+msgid "Sending reservation…"
+msgstr ""
+
+#. translators: %d: number of persons
+#: includes/Frontend.php:113
+#, php-format
+msgid "Add one per person (%d)"
+msgstr ""
+
+#: includes/Frontend.php:114
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: includes/Payments/OnSiteGateway.php:14
+msgid "Pay on site"
+msgstr ""
+
+#: includes/Payments/OnSiteGateway.php:24
+msgid "You pay on site when picking up your canoe (cash, card or TWINT)."
+msgstr ""
+
+#: includes/Period.php:35
+msgid "Please choose whether you want to rent by the hour or by the day."
+msgstr ""
+
+#: includes/Period.php:39
+msgid "Please choose a valid date."
+msgstr ""
+
+#: includes/Period.php:49
+msgid "Please choose a start time."
+msgstr ""
+
+#: includes/Period.php:53
+msgid "The chosen start time is not available."
+msgstr ""
+
+#. translators: %s: closing time
+#: includes/Period.php:57
+#, php-format
+msgid "The rental must end by closing time (%s)."
+msgstr ""
+
+#: includes/Period.php:66
+msgid "The return date must not be before the pick-up date."
+msgstr ""
+
+#. translators: %d: maximum number of days
+#: includes/Period.php:71
+#, php-format
+msgid "Online reservations are limited to %d days. Please contact us for longer rentals."
+msgstr ""
+
+#. translators: %d: hours
+#: includes/Period.php:80
+#, php-format
+msgid "Reservations must be made at least %d hour in advance."
+msgid_plural "Reservations must be made at least %d hours in advance."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/Period.php:83
+msgid "This date is too far in the future for online reservations."
+msgstr ""
+
+#: includes/Period.php:86
+msgid "We are closed on the chosen date (outside the season)."
+msgstr ""
+
+#. translators: 1: date, 2: start time, 3: end time, 4: number of hours
+#: includes/Period.php:117
+#, php-format
+msgid "%1$s, %2$s – %3$s (%4$d hour)"
+msgid_plural "%1$s, %2$s – %3$s (%4$d hours)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: start date, 2: end date, 3: number of days
+#: includes/Period.php:126
+#, php-format
+msgid "%1$s – %2$s (%3$d day)"
+msgid_plural "%1$s – %2$s (%3$d days)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/PostTypes.php:40
+#: includes/PostTypes.php:44
+#: templates/booking-form.php:31
+msgid "Canoes"
+msgstr ""
+
+#: includes/PostTypes.php:42
+msgid "Add new canoe"
+msgstr ""
+
+#: includes/PostTypes.php:43
+msgid "Edit canoe"
+msgstr ""
+
+#: includes/PostTypes.php:57
+#: includes/PostTypes.php:61
+#: templates/booking-form.php:32
+msgid "Extras"
+msgstr ""
+
+#: includes/PostTypes.php:58
+msgid "Extra"
+msgstr ""
+
+#: includes/PostTypes.php:59
+msgid "Add new extra"
+msgstr ""
+
+#: includes/PostTypes.php:60
+msgid "Edit extra"
+msgstr ""
+
+#: includes/Quote.php:50
+msgid "One of the selected canoes is no longer available."
+msgstr ""
+
+#. translators: %s: canoe name
+#: includes/Quote.php:55
+#, php-format
+msgid "%s can only be rented by the day."
+msgstr ""
+
+#. translators: %s: canoe name
+#: includes/Quote.php:60
+#, php-format
+msgid "%s can only be rented by the hour."
+msgstr ""
+
+#. translators: 1: canoe name, 2: hours
+#: includes/Quote.php:65
+#, php-format
+msgid "%1$s must be rented for at least %2$d hours."
+msgstr ""
+
+#. translators: 1: canoe name, 2: number available
+#. translators: 1: extra name, 2: number available
+#: includes/Quote.php:70
+#: includes/Quote.php:92
+#, php-format
+msgid "Only %2$d × %1$s available for the chosen period."
+msgstr ""
+
+#: includes/Quote.php:81
+msgid "One of the selected extras is no longer available."
+msgstr ""
+
+#. translators: 1: max quantity, 2: extra name
+#: includes/Quote.php:86
+#, php-format
+msgid "You can add at most %1$d × %2$s."
+msgstr ""
+
+#: includes/Rest/Controller.php:69
+msgid "Your session has expired. Please reload the page and try again."
+msgstr ""
+
+#: includes/Rest/Controller.php:75
+msgid "Too many reservations from your connection. Please try again later or contact us."
+msgstr ""
+
+#: templates/booking-form.php:27
+msgid "Please enable JavaScript to make a reservation."
+msgstr ""
+
+#: templates/booking-form.php:29
+msgid "Reservation steps"
+msgstr ""
+
+#: templates/booking-form.php:30
+#: templates/booking-form.php:62
+msgid "Date"
+msgstr ""
+
+#: templates/booking-form.php:33
+#: templates/booking-form.php:152
+msgid "Your details"
+msgstr ""
+
+#: templates/booking-form.php:40
+msgid "When do you want to go on the water?"
+msgstr ""
+
+#: templates/booking-form.php:43
+msgid "Rental type"
+msgstr ""
+
+#: templates/booking-form.php:47
+msgid "By the hour"
+msgstr ""
+
+#: templates/booking-form.php:48
+msgid "Short trips, a few hours on the river"
+msgstr ""
+
+#: templates/booking-form.php:54
+msgid "By the day"
+msgstr ""
+
+#: templates/booking-form.php:55
+msgid "Day tours and multi-day trips"
+msgstr ""
+
+#: templates/booking-form.php:63
+msgid "Pick-up date"
+msgstr ""
+
+#: templates/booking-form.php:68
+msgid "Start time"
+msgstr ""
+
+#: templates/booking-form.php:77
+msgid "Duration"
+msgstr ""
+
+#. translators: %d: hours
+#: templates/booking-form.php:81
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/booking-form.php:88
+msgid "Return date"
+msgstr ""
+
+#. translators: 1: opening time, 2: closing time
+#: templates/booking-form.php:95
+#, php-format
+msgid "Opening hours: %1$s – %2$s. Day rentals run from opening to closing time."
+msgstr ""
+
+#: templates/booking-form.php:102
+msgid "Choose your canoes"
+msgstr ""
+
+#. translators: %d: persons
+#: templates/booking-form.php:110
+#: templates/canoe-grid.php:23
+#, php-format
+msgid "Up to %d person"
+msgid_plural "Up to %d persons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/booking-form.php:117
+#: templates/booking-form.php:141
+msgid "Less"
+msgstr ""
+
+#. translators: %s: item
+#: templates/booking-form.php:118
+#: templates/booking-form.php:142
+#, php-format
+msgid "Quantity %s"
+msgstr ""
+
+#. translators: %s: item
+#: templates/booking-form.php:119
+#: templates/booking-form.php:143
+msgid "More"
+msgstr ""
+
+#: templates/booking-form.php:128
+msgid "Add equipment"
+msgstr ""
+
+#: templates/booking-form.php:129
+msgid "Paddles are always included. Add life vests, dry bags and more."
+msgstr ""
+
+#: templates/booking-form.php:154
+msgid "Name"
+msgstr ""
+
+#: templates/booking-form.php:155
+msgid "Email"
+msgstr ""
+
+#: templates/booking-form.php:156
+msgid "Phone"
+msgstr ""
+
+#: templates/booking-form.php:157
+msgid "Notes (optional)"
+msgstr ""
+
+#. translators: %s: link to terms page
+#: templates/booking-form.php:166
+#, php-format
+msgid "I accept the %s."
+msgstr ""
+
+#. translators: %s: link to terms page
+#: templates/booking-form.php:166
+msgid "terms and conditions"
+msgstr ""
+
+#: templates/booking-form.php:168
+msgid "I accept the terms and conditions."
+msgstr ""
+
+#: templates/booking-form.php:178
+msgid "Back"
+msgstr ""
+
+#: templates/booking-form.php:179
+msgid "Continue"
+msgstr ""
+
+#: templates/booking-form.php:180
+msgid "Reserve now"
+msgstr ""
+
+#: templates/booking-form.php:185
+msgid "Your reservation"
+msgstr ""
+
+#: templates/booking-form.php:196
+msgid "Thank you for your reservation!"
+msgstr ""
+
+#: templates/booking-status.php:11
+msgid "Payment not completed"
+msgstr ""
+
+#: templates/booking-status.php:11
+msgid "Thank you!"
+msgstr ""
+
+#. translators: 1: booking reference, 2: status
+#: templates/booking-status.php:15
+#, php-format
+msgid "Reservation %1$s – status: %2$s"
+msgstr ""
+
+#: templates/booking-status.php:20
+msgid "Your payment was not completed. Please try again or contact us."
+msgstr ""
+
+#: templates/canoe-details.php:12
+msgid "Persons"
+msgstr ""
+
+#: templates/canoe-details.php:15
+msgid "Minimum rental"
+msgstr ""
+
+#. translators: %d: hours
+#: templates/canoe-details.php:15
+#, php-format
+msgid "%d hours"
+msgstr ""
+
+#: templates/canoe-details.php:18
+msgid "Reserve this canoe"
+msgstr ""
+
+#: templates/canoe-grid.php:10
+msgid "No canoes available yet."
+msgstr ""
+
+#: templates/canoe-grid.php:29
+msgid "Reserve"
+msgstr ""

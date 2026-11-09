@@ -1,0 +1,283 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "AdventurePoint"
+msgstr "AdventurePoint"
+
+msgid "https://adventurepoint.local"
+msgstr "https://adventurepoint.local"
+
+msgid "Outdoor block theme for a canoe rental – river colours, booking-focused layout. Works with Polylang (DE/FR) and the AP Reservations plugin."
+msgstr "Outdoor-Block-Theme für eine Kanuvermietung – Flussfarben, auf Buchungen ausgerichtetes Layout. Funktioniert mit Polylang (DE/FR) und dem Plugin AP Reservations."
+
+msgid "Main navigation"
+msgstr "Hauptnavigation"
+
+msgid "Footer navigation"
+msgstr "Footer-Navigation"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgctxt "Pattern title"
+msgid "Our canoes"
+msgstr "Unsere Kanus"
+
+msgctxt "Pattern description"
+msgid "Canoe overview from the AP Reservations plugin."
+msgstr "Kanu-Übersicht aus dem Plugin AP Reservations."
+
+msgid "Our boats"
+msgstr "Unsere Boote"
+
+msgid "Well-maintained boats for beginners, families and experienced paddlers. Paddles are always included."
+msgstr "Gepflegte Boote für Einsteiger, Familien und erfahrene Paddler. Paddel sind immer inklusive."
+
+msgctxt "Pattern title"
+msgid "Booking call to action"
+msgstr "Buchungsaufruf"
+
+msgid "Ready for the water?"
+msgstr "Bereit fürs Wasser?"
+
+msgid "Check availability and reserve your canoe online – it only takes two minutes."
+msgstr "Verfügbarkeit prüfen und Kanu online reservieren – dauert nur zwei Minuten."
+
+msgid "Check availability"
+msgstr "Verfügbarkeit prüfen"
+
+msgctxt "Pattern title"
+msgid "Footer content"
+msgstr "Footer-Inhalt"
+
+msgid "Canoe and kayak rental right on the river. Rent by the hour or for multi-day tours – including life vests, dry bags and everything you need."
+msgstr "Kanu- und Kajakvermietung direkt am Fluss. Stundenweise oder für mehrtägige Touren – inklusive Schwimmwesten, Packsäcken und allem, was du brauchst."
+
+msgid "Opening hours"
+msgstr "Öffnungszeiten"
+
+msgid "April – October"
+msgstr "April – Oktober"
+
+msgid "Daily 9:00 – 18:00"
+msgstr "Täglich 9:00 – 18:00 Uhr"
+
+msgid "Contact"
+msgstr "Kontakt"
+
+msgid "Life vests are mandatory on the water."
+msgstr "Auf dem Wasser gilt Schwimmwestenpflicht."
+
+msgctxt "Pattern title"
+msgid "Header bar"
+msgstr "Kopfzeile"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Book now"
+msgstr "Jetzt buchen"
+
+msgctxt "Pattern title"
+msgid "Hero – river"
+msgstr "Hero – Fluss"
+
+msgctxt "Pattern description"
+msgid "Full-width hero with booking call to action."
+msgstr "Vollbreiter Hero-Bereich mit Buchungsaufruf."
+
+msgid "Canoe & kayak rental"
+msgstr "Kanu- & Kajakvermietung"
+
+msgid "Your adventure on the river starts here"
+msgstr "Dein Abenteuer auf dem Fluss beginnt hier"
+
+msgid "Rent a canoe for a few hours or several days. Book online in two minutes – life vests and dry bags are ready for you."
+msgstr "Miete ein Kanu für ein paar Stunden oder mehrere Tage. In zwei Minuten online gebucht – Schwimmwesten und Packsäcke liegen für dich bereit."
+
+msgid "Book a canoe"
+msgstr "Kanu reservieren"
+
+msgid "See our boats"
+msgstr "Unsere Boote"
+
+msgctxt "Pattern title"
+msgid "How it works"
+msgstr "So funktioniert’s"
+
+msgid "Choose date & time"
+msgstr "Datum & Zeit wählen"
+
+msgid "A few hours in the afternoon or a multi-day tour – you decide."
+msgstr "Ein paar Stunden am Nachmittag oder eine mehrtägige Tour – du entscheidest."
+
+msgid "Pick your boats"
+msgstr "Boote auswählen"
+
+msgid "Canadian canoes for two or three, kayaks or stand-up paddle boards."
+msgstr "Kanadier für zwei oder drei, Kajaks oder Stand-up-Paddle-Boards."
+
+msgid "Add equipment"
+msgstr "Ausrüstung hinzufügen"
+
+msgid "Life vests, waterproof dry bags, barrels and cool boxes – just add them to your booking."
+msgstr "Schwimmwesten, wasserdichte Packsäcke, Tonnen und Kühlboxen – einfach zur Buchung hinzufügen."
+
+msgid "Paddle off"
+msgstr "Lospaddeln"
+
+msgid "Arrive, get a short briefing and enjoy the river. You pay on site."
+msgstr "Ankommen, kurze Einweisung, Fluss geniessen. Bezahlt wird vor Ort."
+
+msgid "How it works"
+msgstr "So funktioniert’s"
+
+msgid "From booking to the water in four easy steps."
+msgstr "In vier einfachen Schritten von der Buchung aufs Wasser."
+
+msgctxt "Pattern title"
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+msgid "Drifted off course"
+msgstr "Vom Kurs abgekommen"
+
+msgid "This page does not exist (anymore). Paddle back to the start page."
+msgstr "Diese Seite gibt es nicht (mehr). Paddle zurück zur Startseite."
+
+msgid "Back to the start page"
+msgstr "Zurück zur Startseite"
+
+msgctxt "Pattern title"
+msgid "Why paddle with us"
+msgstr "Warum mit uns paddeln"
+
+msgid "Safety first"
+msgstr "Sicherheit zuerst"
+
+msgid "Certified life vests in all sizes, including for children, and a briefing before every tour."
+msgstr "Zertifizierte Schwimmwesten in allen Grössen, auch für Kinder, und eine Einweisung vor jeder Tour."
+
+msgid "Everything stays dry"
+msgstr "Alles bleibt trocken"
+
+msgid "Waterproof bags and barrels keep your phone, clothes and picnic dry."
+msgstr "Wasserdichte Säcke und Tonnen halten Handy, Kleider und Picknick trocken."
+
+msgid "Flexible rental"
+msgstr "Flexible Miete"
+
+msgid "By the hour or by the day, alone or with the whole group."
+msgstr "Stunden- oder tageweise, allein oder mit der ganzen Gruppe."
+
+msgid "Why paddle with us?"
+msgstr "Warum mit uns paddeln?"
+
+msgctxt "Color name"
+msgid "Base"
+msgstr "Basis"
+
+msgctxt "Color name"
+msgid "Surface"
+msgstr "Fläche"
+
+msgctxt "Color name"
+msgid "Sand"
+msgstr "Sand"
+
+msgctxt "Color name"
+msgid "River"
+msgstr "Fluss"
+
+msgctxt "Color name"
+msgid "Deep water"
+msgstr "Tiefes Wasser"
+
+msgctxt "Color name"
+msgid "Forest"
+msgstr "Wald"
+
+msgctxt "Color name"
+msgid "Canoe orange"
+msgstr "Kanu-Orange"
+
+msgctxt "Color name"
+msgid "Text"
+msgstr "Text"
+
+msgctxt "Color name"
+msgid "Muted"
+msgstr "Gedämpft"
+
+msgctxt "Color name"
+msgid "Border"
+msgstr "Rahmen"
+
+msgctxt "Gradient name"
+msgid "River"
+msgstr "Fluss"
+
+msgctxt "Space size name"
+msgid "XS"
+msgstr "XS"
+
+msgctxt "Space size name"
+msgid "S"
+msgstr "S"
+
+msgctxt "Space size name"
+msgid "M"
+msgstr "M"
+
+msgctxt "Space size name"
+msgid "L"
+msgstr "L"
+
+msgctxt "Space size name"
+msgid "XL"
+msgstr "XL"
+
+msgctxt "Font family name"
+msgid "Body"
+msgstr "Fliesstext"
+
+msgctxt "Font family name"
+msgid "Display"
+msgstr "Überschrift"
+
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Klein"
+
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Mittel"
+
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Gross"
+
+msgctxt "Font size name"
+msgid "XL"
+msgstr "XL"
+
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "Riesig"
+
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Kopfbereich"
+
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Fussbereich"
+
+msgctxt "Custom template name"
+msgid "Page – full width"
+msgstr "Seite – volle Breite"

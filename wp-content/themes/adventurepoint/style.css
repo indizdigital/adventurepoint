@@ -1,0 +1,71 @@
+/*
+Theme Name: AdventurePoint
+Theme URI: https://adventurepoint.local
+Description: Outdoor block theme for a canoe rental – river colours, booking-focused layout. Works with Polylang (DE/FR) and the AP Reservations plugin.
+Version: 1.1.2
+Requires at least: 6.5
+Requires PHP: 8.1
+Author: AdventurePoint
+Text Domain: adventurepoint
+License: GPL-2.0-or-later
+*/
+
+/* ---------- Header ---------- */
+.ap-header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--wp--preset--color--border); }
+.admin-bar .ap-header { top: 32px; }
+@media (max-width: 782px) { .admin-bar .ap-header { top: 0; position: relative; } }
+.ap-header__inner { display: flex; align-items: center; gap: 1.5rem; max-width: var(--wp--style--global--wide-size); margin: 0 auto; padding: .8rem var(--wp--preset--spacing--40); }
+.ap-brand { display: inline-flex; align-items: center; flex: none; line-height: 0; }
+.ap-brand__logo { display: block; height: 48px; width: auto; }
+.ap-brand:hover .ap-brand__logo { opacity: .85; }
+@media (max-width: 480px) { .ap-brand__logo { height: 34px; } }
+.ap-footer__logo { margin-bottom: 1rem; }
+.ap-nav { margin-left: auto; }
+.ap-nav ul { display: flex; gap: .25rem; list-style: none; margin: 0; padding: 0; }
+.ap-nav a { display: block; padding: .5rem .8rem; border-radius: 999px; color: var(--wp--preset--color--contrast); text-decoration: none; font-weight: 600; }
+.ap-nav a:hover, .ap-nav .current-menu-item > a { background: var(--wp--preset--color--surface); color: var(--wp--preset--color--primary-dark); }
+.ap-cta { display: inline-flex; padding: .55rem 1.1rem; border-radius: 999px; background: var(--wp--preset--color--accent); color: #fff !important; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.ap-cta:hover { background: #c8652c; }
+.ap-langs { display: flex; gap: .2rem; list-style: none; margin: 0; padding: .2rem; border: 1px solid var(--wp--preset--color--border); border-radius: 999px; }
+.ap-langs a, .ap-langs span { display: block; padding: .25rem .6rem; border-radius: 999px; font-size: .8rem; font-weight: 700; text-transform: uppercase; text-decoration: none; color: var(--wp--preset--color--muted); }
+.ap-langs .is-current span { background: var(--wp--preset--color--primary); color: #fff; }
+.ap-langs a:hover { color: var(--wp--preset--color--primary-dark); }
+.ap-menu-toggle { display: none; margin-left: auto; width: 44px; height: 44px; border: 1px solid var(--wp--preset--color--border); border-radius: 12px; background: none; cursor: pointer; }
+.ap-menu-toggle span { display: block; width: 20px; height: 2px; margin: 4px auto; background: var(--wp--preset--color--primary-dark); }
+@media (max-width: 860px) {
+	.ap-header__inner { flex-wrap: wrap; gap: .75rem; }
+	.ap-menu-toggle { display: block; }
+	.ap-nav, .ap-header__actions { display: none; width: 100%; }
+	.ap-header.is-open .ap-nav, .ap-header.is-open .ap-header__actions { display: flex; }
+	.ap-nav ul { flex-direction: column; width: 100%; }
+	.ap-header__actions { justify-content: space-between; padding-bottom: .5rem; }
+}
+.ap-header__actions { display: flex; align-items: center; gap: .75rem; }
+
+/* ---------- Hero ---------- */
+.ap-hero { position: relative; overflow: hidden; }
+/* Align hero content with the header (core's "content left" position would pin it to the viewport edge). */
+.wp-block-cover.ap-hero .wp-block-cover__inner-container { width: 100% !important; max-width: var(--wp--style--global--wide-size) !important; margin-inline: auto !important; }
+.wp-block-cover.ap-hero .wp-block-cover__inner-container > * { margin-left: 0 !important; }
+.ap-hero h1 { color: #fff; max-width: 14ch; text-shadow: 0 2px 20px rgba(0,0,0,.2); }
+.ap-hero p { color: rgba(255,255,255,.92); max-width: 46ch; }
+.ap-eyebrow { display: inline-block; padding: .3rem .8rem; border-radius: 999px; background: rgba(255,255,255,.18); color: #fff; font-size: .85rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+.ap-hero .is-style-outline .wp-block-button__link { color: #fff; border-color: rgba(255,255,255,.7); background: transparent; }
+
+/* ---------- Sections ---------- */
+.ap-steps { counter-reset: step; }
+.ap-step-card { position: relative; padding: 1.75rem; border-radius: 18px; background: var(--wp--preset--color--base); border: 1px solid var(--wp--preset--color--border); height: 100%; }
+.ap-step-card::before { counter-increment: step; content: counter(step); display: grid; place-items: center; width: 2.6rem; height: 2.6rem; margin-bottom: 1rem; border-radius: 50%; background: var(--wp--preset--color--primary); color: #fff; font-weight: 800; font-size: 1.1rem; }
+.ap-feature { padding: 1.5rem; border-radius: 18px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15); height: 100%; }
+.ap-feature h3 { color: #fff; }
+.ap-wave { display: block; width: 100%; height: 60px; margin-top: -1px; }
+
+/* ---------- Footer ---------- */
+.ap-footer a { color: #fff; }
+.ap-footer a:hover { color: var(--wp--preset--color--accent); }
+.ap-footer ul { list-style: none; padding: 0; margin: 0; }
+.ap-footer li { margin: .3rem 0; }
+
+/* ---------- Content ---------- */
+.wp-block-post-content > .apr:first-child, .wp-block-post-content > .apr-grid:first-child { margin-top: 0; }
+:where(.wp-site-blocks) :focus-visible { outline: 3px solid var(--wp--preset--color--accent); outline-offset: 2px; }
