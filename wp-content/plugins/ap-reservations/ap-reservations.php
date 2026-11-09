@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       AP Reservations
  * Description:       Canoe rental reservations: canoe types rentable per hour or day, stock-based availability, bookable extras, pluggable payment gateways.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Requires at least: 6.4
  * Requires PHP:      8.1
  * Author:            AdventurePoint
@@ -12,7 +12,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'AP_RES_VERSION', '1.0.2' );
+define( 'AP_RES_VERSION', '1.0.3' );
 define( 'AP_RES_DB_VERSION', '1' );
 define( 'AP_RES_FILE', __FILE__ );
 define( 'AP_RES_DIR', plugin_dir_path( __FILE__ ) );

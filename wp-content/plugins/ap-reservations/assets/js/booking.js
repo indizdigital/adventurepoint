@@ -327,7 +327,15 @@
 				terms: field( 'terms' ).checked,
 				website: field( 'website' ).value,
 			};
-			const { ok, data } = await api( 'bookings', body, { 'X-AP-Nonce': cfg.nonce } );
+			let { ok, data } = await api( 'bookings', body, { 'X-AP-Nonce': cfg.nonce } );
+			if ( ! ok && data.code === 'ap_nonce' ) {
+				// Page came from a cache with an expired token: get a fresh one and retry once.
+				const fresh = await fetch( cfg.restUrl + 'token', { credentials: 'same-origin', cache: 'no-store' } ).then( ( r ) => r.json() ).catch( () => null );
+				if ( fresh && fresh.token ) {
+					cfg.nonce = fresh.token;
+					( { ok, data } = await api( 'bookings', body, { 'X-AP-Nonce': cfg.nonce } ) );
+				}
+			}
 			if ( ! ok ) {
 				showError( data.message || t.networkError );
 				if ( data.data?.quote ) {

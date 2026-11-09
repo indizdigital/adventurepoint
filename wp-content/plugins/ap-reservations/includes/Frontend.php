@@ -86,7 +86,7 @@ final class Frontend {
 		wp_enqueue_script( 'ap-reservations' );
 		wp_localize_script( 'ap-reservations', 'apReservations', [
 			'restUrl'   => esc_url_raw( rest_url( Rest\Controller::NS . '/' ) ),
-			'nonce'     => wp_create_nonce( 'ap_booking' ),
+			'nonce'     => FormToken::create(),
 			'lang'      => $lang,
 			'locale'    => str_replace( '_', '-', determine_locale() ),
 			'currency'  => $settings['currency'],

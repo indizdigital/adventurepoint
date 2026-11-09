@@ -3,6 +3,7 @@ namespace AP\Reservations\Rest;
 
 use AP\Reservations\BookingRepository;
 use AP\Reservations\BookingService;
+use AP\Reservations\FormToken;
 use AP\Reservations\I18n;
 use AP\Reservations\Money;
 use AP\Reservations\Period;
@@ -26,6 +27,17 @@ final class Controller {
 			'methods'             => 'POST',
 			'permission_callback' => '__return_true',
 			'callback'            => [ self::class, 'quote' ],
+		] );
+		// Fresh form token – used by the form when a (cached) page carried an expired one.
+		register_rest_route( self::NS, '/token', [
+			'methods'             => 'GET',
+			'permission_callback' => '__return_true',
+			'callback'            => static function () {
+				nocache_headers();
+				$response = new WP_REST_Response( [ 'token' => FormToken::create() ] );
+				$response->header( 'Cache-Control', 'no-store, max-age=0' );
+				return $response;
+			},
 		] );
 		register_rest_route( self::NS, '/bookings', [
 			'methods'             => 'POST',
@@ -65,7 +77,7 @@ final class Controller {
 
 	public static function create_booking( WP_REST_Request $request ): WP_REST_Response|WP_Error {
 		$nonce = (string) $request->get_header( 'x_ap_nonce' );
-		if ( ! wp_verify_nonce( $nonce, 'ap_booking' ) ) {
+		if ( ! FormToken::verify( $nonce ) ) {
 			return new WP_Error( 'ap_nonce', __( 'Your session has expired. Please reload the page and try again.', 'ap-reservations' ), [ 'status' => 403 ] );
 		}
 		if ( '' !== trim( (string) $request->get_param( 'website' ) ) ) { // honeypot
